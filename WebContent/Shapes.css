@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+.text {
+     height:40px;
+    background:#808040;
+    color:#fff;
+    position:relative;
+    width:200px;
+    text-align:center;
+    line-height:40px;
+}
+.arrow {
+     content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    left:100%;
+    top:0;
+    border:20px solid transparent;
+    border-left: 20px solid #808000;
+}
+a{
+	text-decoration:none;
+}
+#rest{
+	border-style: outset;
+	border-color:#b3b3b3;
+	border-top:none;
+	border-left:none;
+	height:40px; 
+	width:100%;
+	background-color:rgba(100,100,100,.1);
+	
+	font-size: 25px; 
+	
+	line-height: 40px;   
+	
+}

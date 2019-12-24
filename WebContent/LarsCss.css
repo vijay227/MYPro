@@ -1,0 +1,373 @@
+/* 
+    Document   : LarsCss
+    Created on : Dec 21, 2015, 11:59:09 AM
+    Author     : Creazione-3
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    
+     font-family: Shruti;
+      background-color:#f2f2f2;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f2f2, endColorstr=#ccd5d9);
+    background-image:-moz-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-webkit-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-o-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-ms-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#f2f2f2), color-stop(25%,#ccd5d9),color-stop(50%,#a1bdc9),color-stop(50%,#a7bbc4),color-stop(100%,#67aecf));
+ 
+}
+
+#navigate{
+margin-left:500px;
+    display: inline-block;
+    color:white;
+    width: 700px;
+    
+    margin: 10px 10px 10px;
+    padding: 10px 20px 10px 10px;
+    background-color:#990066 ; 
+    margin-left: 500px;
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+
+root { 
+    display: block;
+}
+.tablediv{
+margin-right: 200px;
+margin-left: 700px;
+margin-top: 50px;
+    /*background-color:rgba(100,150,600,0.30);*/
+    height: 1000px;
+    width: 400px; 
+    border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;  
+}
+input[type=submit]{
+    color: red;
+    height: 40px;
+    width: 110px;
+    font-size: 30px;
+}
+
+body{
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: absolute;
+}
+
+#header_heading{
+    font-family: Shruti; 
+    font-size: xx-large; 
+    font-weight: lighter;
+    font-style: inherit; 
+    font-variant: small-caps; 
+    text-transform: none; 
+    color: whitesmoke; 
+    text-decoration: blink;
+    position:center; 
+    z-index: inherit
+
+}
+#m_head_div { 
+    color:brown;
+    background:rgba(176,112,192,0.20);
+    width: 1000px;
+    height: 40px;     
+    -moz-background-size: cover;
+}
+#h_text{
+    padding-top: 0px;
+}
+
+#header_d{
+    margin-left:10%;
+    margin-right:12%;
+    height: 150px;
+    image-resolution: from-image;
+    background-size:inherit;
+    position: absolute;
+}  
+
+#links{
+    background-color: rgba(200,150,90,0.50);
+    border: transparent 0.40px;
+    height: 20px;
+    margin-left: 10%;
+    margin-right:10%;
+    width: 1100px;
+    margin-top: 12%;
+    
+}
+#file_div{
+    background-color: rgba(246,152,192,0.50);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    background: cover;
+    -moz-background-size: cover;
+}
+#mcluster{
+    margin-left: 12%;
+    margin-top: 50px;
+    background-color:#f2f2f2;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f2f2, endColorstr=#ccd5d9);
+    background-image:-moz-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-webkit-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-o-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-ms-linear-gradient(top, #f2f2f2 0%, #ccd5d9 25%,#a1bdc9 50%,#a7bbc4 50%,#67aecf 100%);
+    background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#f2f2f2), color-stop(25%,#ccd5d9),color-stop(50%,#a1bdc9),color-stop(50%,#a7bbc4),color-stop(100%,#67aecf));
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: px;
+    height: 400px;
+    width: 700px;
+}
+input[type=submit]{
+    padding: 5px 18px;
+    background: rgba(210,180,155,0.80);
+    border: 0 none;
+    cursor: pointer;
+    font-size: medium;
+    font-family: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: solid green;
+}
+input[type=submit]:hover{
+    color:red;
+    padding: 5px 18px;
+    background: rgba(200,142,152,0.60);
+    border: 0 none;
+    cursor: pointer;
+    font-size: medium;
+    font-family: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-color: #008036;
+    border-bottom: solid fuchsia;
+}
+input[type=text]
+{
+    
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: Shruti; 
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    color: black;
+}
+input[type=password]
+{
+    font-family: Shruti; 
+    text-decoration-line: none;  
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: solid fuchsia thin;
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    color: black;
+}
+
+select
+{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+     font-family: Shruti; 
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    
+    color: #666666;
+    width: 162px;
+   
+}
+
+table{
+    font-family: Shruti;
+    text-decoration-line: none;
+    border-bottom: solid fuchsia thin;
+    border-top: solid fuchsia thin;
+    font-family: Gisha;
+    padding-top: 40px;
+    font-size: medium;
+    width:500px;
+    height: auto;
+    cellpadding:5%;
+    color: #660000;
+}
+
+h2{
+    font-family: Aparajita;
+    color:sienna;
+}
+
+body{
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    color: whitesmoke;
+}
+input[type=file]
+{
+    font-family: Shruti;
+    font-size: small;
+    text-decoration: blink;
+    text-transform: none;
+    color: whitesmoke;
+
+}
+input [type=textarea]
+{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: Shruti; 
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    color: black;
+
+}
+input[type=email]
+{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: Shruti; 
+    font-family: Gisha;
+    font-size: medium;
+    text-decoration: blink;
+    text-transform: none;
+    color: black;
+
+}
+#main-home-mnu1{
+    font-family: Shruti;
+    text-decoration-line: none;
+    border-bottom: solid fuchsia thin;
+    border-top: solid fuchsia thin;
+    margin-right: 300px;
+    font-family: Gisha;
+    padding-top: 10px;
+    font-size: medium;
+    width:700px;
+    height: 210px;
+    color: whitesmoke;
+}
+a{
+    color:white;
+    font-size: 20px;
+}
+a:hover{
+    animation-fill-mode: forwards;
+    color:red;
+
+}
+
+#sendfile_tab0{
+
+    margin-left: 70px;
+    margin-bottom: 10px;
+    border-bottom: solid fuchsia thin;
+    border-top: solid fuchsia thin;
+    height:200px;
+    width: 350px;
+    font-family: Shruti;
+    text-decoration-line: none;
+    font-family: Gisha;
+    font-size: medium; 
+    color: whitesmoke;
+}
+#sendfile_tab{
+    border-top: none;
+    border-bottom: none;
+    margin-left: 50px;
+    height:20px; 
+    width: 500px;
+    font-family: Shruti;
+    text-decoration-line: none;
+    font-family: Gisha;
+    font-size: medium; 
+    color: whitesmoke;
+}
+#sendfile_tab1{
+    margin-left: 50px;
+    margin-top: -20px;
+    border-bottom: solid fuchsia thin;
+    border-top: none;
+    height:20px; 
+    width: 600px;
+    font-family: Shruti;
+    text-decoration-line: none;
+    font-family: Gisha;
+    font-size: medium; 
+    color: whitesmoke;
+}
+#receivefile_tab{
+
+    font-family: Shruti;
+    text-decoration-line: none;
+    border-bottom: solid fuchsia thin;
+    border-top: solid fuchsia thin;
+    font-family: Gisha;
+    padding-top: 40px;
+    font-size: medium;
+    width:500px;
+    height: 200px;
+    cellpadding:5%;
+    color: whitesmoke;
+}
+#login{
+    background-image: url(images/ns.png); 
+    margin-top: -400px;
+    margin-left: 50%; 
+    height: 400px;
+    width: 380px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:0px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+
+}
+
+#tab{
+
+    font-family: Shruti;
+    text-decoration-line: none;
+    border-bottom: none;
+    border-top: none;
+    font-family: Gisha;
+    padding-top: 33px;
+    font-size: medium;
+    width: 300px;
+    height: auto;
+
+    color: whitesmoke; 
+}
